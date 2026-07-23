@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "envoisms"
+version = "1.0.0"
+description = "Official Python SDK for EnvoiSMS.ma - SMS, WhatsApp & OTP API in Morocco"
+readme = "README.md"
+requires-python = ">=3.8"
+license = {text = "MIT"}
+authors = [
+    {name = "EnvoiSMS.ma", email = "contact@envoisms.ma"}
+]
+keywords = ["envoisms", "sms", "morocco", "otp", "whatsapp", "maroc"]
+dependencies = [
+    "requests>=2.25.0"
+]
+
+[project.urls]
+Homepage = "https://envoisms.ma/fr/docs"
+Repository = "https://github.com/envoisms/envoisms-python"
